@@ -42,7 +42,7 @@ Generar reporte de cobertura JaCoCo:
 mvn verify
 # o
 mvn jacoco:report
----
+```
 
 -Luego abrir target/site/jacoco/index.html en un navegador para ver la cobertura.
 
@@ -93,6 +93,7 @@ Genera el reporte con:
 mvn verify
 # o
 mvn jacoco:report
+```
 Genera el reporte con mvn verify o mvn jacoco:report.
 
 Revisa target/site/jacoco/index.html.
